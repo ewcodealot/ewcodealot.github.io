@@ -1,5 +1,7 @@
 body{
   background-color:white;
+  margin:0;
+  font-family:roboto;
 }
 #header {
   background-color:lightgray;
