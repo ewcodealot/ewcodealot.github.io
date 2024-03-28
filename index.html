@@ -1,18 +1,119 @@
+<!DOCTYPE html>
 <html>
-  <!DOCTYPE html>
-<head>
-  <link href="index.css" rel="stylesheet" type="text/css">
-  <title>Make A Great Presentation | ProPresent | Teaching You To Master Presentations</title>
-</head>
-<body>
-  <div id="header">
-    <h2>ProPresent</h2>
-  </div>
-  <div>
-  <h1>You Got This</h1>
-  </div>
-</body>
-<script>
-  
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Codealot01 Games</title>
+    </head>
+    <body>
+        <div class="top">
+            <a href="index.html">
+            <h1>Codealot01 Games</h1>
+            </a>
+        </div>
+        <div class="elfsight-app-077c13fb-0c84-468d-a8e8-46bdcf372365" data-elfsight-app-lazy></div>
+        <h1 id="slogan">Play Original Minigames. Free. Lots Of Fun.</h1>
+        <br>
+        <button type="button" class="collapsible"><b>Toggle Games Section</b></button>
+<div class="content">
+<div id="games">
+        <h2>New Games</h2>
+        <a href="colorjump3d.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/5089e73d240643374e2eec2c791a584b">
+            <p>Color Jump 3D!</p>
+        </div>
+        </a>
+        <a href="jump shot.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/c75a0ccd8b1091ba6b8c46fb58a0ec88">
+            <p>Jumpshot Remastered</p>
+        </div>
+        </a>
+        <a href="3dmaze.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/a2a67064c4587a145d180a21dfa837a1">
+            <p>3D Maze</p>
+        </div>
+        </a>
+        </div>
+        <br>
+        <div id="games">
+            <h2>Mobile Games</h2>
+            <a href="famous.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/49ffedcaa4734e27d4c423bde00d7cd0">
+            <p>#iDon'tWannaBeFamous</p>
+        </div>
+        </a>
+        </div>
+        <br>
+        <div id="games">
+            <h2>Any Platform Games</h2>
+            <a href="shaperun.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/10487cd437f8e6f66f880864c204dc3e">
+            <p>Shape Run Infinite</p>
+        </div>
+        </a>
+        <a href="shaperun2.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/2ec4e781311583a02ed3ca525d6d9c7d">
+            <p>Shape Run 2.0</p>
+        </div>
+        </a>
+        </div>
+</div>
+<button type="button" class="collapsible"><b>Toggle Interactive Section</b></button>
+<div class="content">
+<a href="fluid.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/1005a937f41f23633f126f873ad6ced1">
+            <p>Fluid Interactive Sim</p>
+        </div>
+        </a>
+        <a href="flappy.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/fe60e3ec1a1a1377812cdebf93714307">
+            <p>Machine Learning Flappy Bird</p>
+        </div>
+        </a>
+        <a href="water.html">
+        <div class="newgame1">
+            <img src="https://codehs.com/uploads/16e1d96d7e6916e654fb7144d39e4ee8">
+            <p>Water Type Sim</p>
+        </div>
+        </a>
+</div>
+        
+        <br>
+        <br>
+<div class="elfsight-app-916afb7d-abf8-4ced-bfdb-e61b19693dcf" data-elfsight-app-lazy>&nbsp</div>
+<br>
+<iframe id="showoff" src="https://jumpshare.com/embed/qpxAOY2ewY9LF2MpS2TU" autoplay="1" mute="1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%;"></iframe>
+<div class="footer">
+    <p>© 2024 Emmett Wilson, All rights reserved.<br>
+    This Site is free to play, and subject to change such as new games, ads, or possibly new platforms.</p>
+</div>
+    </body>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <script>
+   var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
 </script>
 </html>
