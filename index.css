@@ -1,9 +1,150 @@
-body{
-  background-color:white;
-  margin:0;
-  font-family:roboto;
+@keyframes fadein {
+   from{opacity:0;}
+    to{opacity:100;}
 }
-#header {
-  background-color:lightgray;
-  padding:10px;
+
+body{
+font-family: Roboto, sans-serif; 
+margin:0;
+background-image: conic-gradient( #03a1fc, darkblue, darkblue, darkblue, #03a1fc);
+color:white;
+text-align:center;
+transition-duration:1s;
+animation-name:fadein;
+animation-duration:2s;
+cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+h1 {
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+a {
+    color:white;
+    text-decoration:none;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.top {
+    background-color:#03a1fc;
+    color:white;
+    width:100%;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+h2 {
+    text-align:center;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+#games {
+    text-align:center;
+    padding:10px;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.newgame1 {
+    opacity:0.95;
+    display:inline-block;
+    padding:10px;
+    background-color:#202842;
+    text-align:center;
+    color:white;
+    margin:1%;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.newgame1 img {
+    height:30%;
+}
+iframe {
+    display:block;
+    text-align:center;
+    padding-left:12%;
+    padding-right:12%;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+p {
+    text-align:center;
+    padding-left:20%;
+    padding-right:20%;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+div .elfsight-app-76dc9495-8711-404b-bf37-4899b0715c9b {
+    margin-bottom:0;
+    width:60%;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.footer {
+    background-color:black;
+    margin-bottom:0;
+    padding:20px;
+    bottom:0;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.collapsible {
+  background-color: rgba(0, 0, 0, 0);
+  color: darkblue;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+
+.active, .collapsible:hover {
+  background-color: darkblue;
+  color:white;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.sim {
+    width:90%;
+    height:80%;
+    display:inline-block;
+    padding:0px;
+}
+#web {
+    color:cyan;
+    text-decoration:underline;
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+#slogan {
+    font-family:"Expletus Sans";
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.expletus-sans-<uniquifier> {
+  font-family: "Expletus Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#slogan {
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+.elfsight-app-077c13fb-0c84-468d-a8e8-46bdcf372365 {
+    cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+}
+#showoff {
+    padding:0;
+    width:100%;
+    height:100%;
 }
