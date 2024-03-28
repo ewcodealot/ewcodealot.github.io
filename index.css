@@ -49,11 +49,10 @@ h2 {
     color:white;
     margin:1%;
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
-    width:75%;
+    width:25%;
 }
 .newgame1 img {
-    height:20%;
-    width:75%;
+    width:25%;
 }
 iframe {
     display:block;
