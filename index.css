@@ -6,9 +6,9 @@
 body{
 font-family: Roboto, sans-serif; 
 margin:0;
-background-color:lightgray;
+background-color:white;
 // background-image: conic-gradient( #03a1fc, darkblue, darkblue, darkblue, #03a1fc);
-color:white;
+color:black;
 text-align:center;
 transition-duration:1s;
 animation-name:fadein;
@@ -152,12 +152,11 @@ div .elfsight-app-76dc9495-8711-404b-bf37-4899b0715c9b {
     height:20%;
 }
 #feedback {
-   padding:5px;
   position: fixed;
   bottom: 2;
   right: 2;
-  width: 100px;
+  width: 150px;
   border: 2px solid darkblue;
    border-radius:10px;
-   
+   background-color:darkblue;
 }
