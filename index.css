@@ -6,7 +6,8 @@
 body{
 font-family: Roboto, sans-serif; 
 margin:0;
-background-image: conic-gradient( #03a1fc, darkblue, darkblue, darkblue, #03a1fc);
+background-color:lightgray;
+// background-image: conic-gradient( #03a1fc, darkblue, darkblue, darkblue, #03a1fc);
 color:white;
 text-align:center;
 transition-duration:1s;
@@ -30,6 +31,7 @@ a {
     color:white;
     width:100%;
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+   top:0;
 }
 h2 {
     text-align:center;
@@ -38,6 +40,7 @@ h2 {
 #games {
     text-align:center;
     padding:10px;
+   padding-top:15px;
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
 }
 .newgame1 {
