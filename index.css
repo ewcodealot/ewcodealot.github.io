@@ -148,3 +148,10 @@ div .elfsight-app-76dc9495-8711-404b-bf37-4899b0715c9b {
     padding:0;
     height:20%;
 }
+#feedback {
+   bottom:5px;
+   left:5px;
+   position:absolute;
+   background-color:darkblue;
+   padding:10px;
+}
