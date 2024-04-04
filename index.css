@@ -76,11 +76,12 @@ div .elfsight-app-76dc9495-8711-404b-bf37-4899b0715c9b {
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
 }
 .footer {
-    background-color:white;
+    background-color:black;
     margin-bottom:0;
     padding:20px;
     bottom:0;
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
+   color:white;
 }
 .collapsible {
   background-color: rgba(0, 0, 0, 0);
