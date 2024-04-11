@@ -2,8 +2,53 @@
 <html lang="eng">
 <head>
   <title>Search | COdealot01 Games</title>
-  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Codealot, ewcodealot, games, codealot01 games, ewcodealot.github.io, ewcodealot github">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image" href="android-chrome-192x192.png">
+        <link rel="stylesheet" href="index.css">
+        <meta name="google-site-verification" content="LpclbArXgJ34eOgbpxjxFGm23FMyMpLay1yPRHrwMWg" />
+  <link rel="stylesheet" href="search.css">
   </head>
 <body>
+  <div class="top">
+            <a href="index.html">
+            <h1>Codealot01 Games</h1>
+            </a>
+        </div>
+  <br>
+  <h1>Search Codealot01 Games</h1>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">Colorjump3d</a></li>
+  <li><a href="#">Jumpshot</a></li>
+  <li><a href="#">3DMaze</a></li>
+  <li><a href="#">#iDon'tWannaBeFamous</a></li>
+  <li><a href="#">Shaperun 2.0</a></li>
+  <li><a href="#">Shaperun</a></li>
+  <li><a href="#">Infinifight</a></li>
+  <li><a href="#">Colorjump 3D</a></li>
+</ul>
   </body>
+  <script>
+    function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+  </script>
   </html>
