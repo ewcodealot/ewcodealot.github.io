@@ -163,9 +163,9 @@ div .elfsight-app-76dc9495-8711-404b-bf37-4899b0715c9b {
    background-color:darkblue;
 }
 .full {
-   color:black;
+   color:white;
    background-color:darkblue;
-   padding:5px;
+   padding:5px, 10px, 10px, 5px;
    border:darkblue, 3px, solid;
    border-radius:10px;
 }
