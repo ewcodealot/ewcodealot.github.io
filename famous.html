@@ -20,4 +20,11 @@
     This Site is free to play, and subject to change such as new games, ads, or possibly new platforms.</p>
 </div>
     </body>
+    <script>
+        window.addEventListener("keydown", function(e) {
+    if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+        e.preventDefault();
+    }
+}, false);
+    </script>
 </html>
