@@ -60,8 +60,8 @@ h2 {
 iframe {
     display:block;
     text-align:center;
-    padding-left:12%;
-    padding-right:12%;
+    padding-left:0;
+    padding-right:0;
     cursor:url(https://codehs.com/uploads/49355740809622cb036235f8a793aacd),auto;
 }
 p {
