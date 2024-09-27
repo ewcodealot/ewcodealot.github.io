@@ -1,0 +1,18 @@
+body {
+    background-color:white;
+    font-family:roboto;
+    color:white;
+    margin:0;
+}
+#header {
+    border:2px black solid;
+    text-align:center;
+    background-color:#2a3e52;
+}
+#overview {
+    text-align:center;
+    background-image:url('https://png.pngtree.com/background/20230616/original/pngtree-retro-glitch-effect-in-stunning-3d-render-picture-image_3666350.jpg');
+    padding:15%;
+    border:2px black solid
+    color:white;
+}
