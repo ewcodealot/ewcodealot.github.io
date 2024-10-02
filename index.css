@@ -30,7 +30,6 @@ body {
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
   border-radius: 10px;
   position: absolute;
   z-index: 1;
@@ -44,4 +43,11 @@ body {
     height:100px;
     border:white 2px solid;
     border-radius:20px;
+}
+#footer {
+    padding:3px;
+    outline:black solid 2px;
+    margin:0;
+    position:absolute;
+    bottom:0;
 }
