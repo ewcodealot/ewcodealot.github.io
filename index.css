@@ -23,3 +23,25 @@ body {
     background-color:black;
     color:white;
 }
+
+.tooltip {
+  opacity:0;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  transition-duration:0.6s;
+}
+.gamelink:hover .tooltip {
+    opacity:100;
+}
+.gamelink img {
+    width:100px;
+    height:100px;
+    border:white 2px solid;
+    border-radius:20px;
+}
