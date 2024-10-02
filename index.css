@@ -34,13 +34,15 @@ body {
   position: absolute;
   z-index: 1;
   transition-duration:0.6s;
+  
 }
 .gamelink:hover .tooltip {
     opacity:100;
 }
 .gamelink img {
-    width:100px;
-    height:100px;
+    padding:2px;
+    width:125px;
+    height:125px;
     border:white 2px solid;
     border-radius:20px;
 }
@@ -48,6 +50,5 @@ body {
     padding:3px;
     outline:black solid 2px;
     margin:0;
-    position:absolute;
-    bottom:0;
 }
+
