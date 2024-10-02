@@ -16,3 +16,10 @@ body {
     border:2px black solid;
     color:white;
 }
+#jump2 {
+    width:20%;
+    border:black 2px solid;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+}
