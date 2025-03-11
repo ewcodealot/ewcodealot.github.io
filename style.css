@@ -7,6 +7,8 @@
     padding:10px
 }
 #header {
+    top:0;
+    position:sticky;
     border: 3px, rgb(47, 85, 255), solid;
     background-color:rgb(47, 85, 255);
     padding:5px;
