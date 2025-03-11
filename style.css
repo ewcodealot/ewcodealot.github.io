@@ -1,0 +1,57 @@
+* {
+    font-family:roboto;
+    margin:0px;
+}
+#page {
+    text-align: center;
+    padding:10px
+}
+#header {
+    border: 3px, rgb(47, 85, 255), solid;
+    background-color:rgb(47, 85, 255);
+    padding:5px;
+    color: white;
+}
+.code {
+    background-color:lightgray;
+    font-family:monospace;
+    color:black;
+}
+#html {
+    text-align: left;
+    border: 3px, rgb(47, 85, 255), solid;
+    margin:5px;
+    padding:10px;
+}
+
+#css {
+    text-align: left;
+    border: 3px, rgb(47, 85, 255), solid;
+    margin:5px;
+    padding:10px;
+}
+.clickable {
+    border: 3px, solid, rgb(47, 85, 255);
+    border-radius: 50px;
+    padding:12px;
+    text-align:center;
+    background-color:rgb(47, 85, 255);
+    color:white;
+    transition-duration:0.5s;
+    text-decoration: none;
+    margin:5px;
+}
+.clickable:hover {
+    background-color:rgb(245, 245, 245);
+    color:black;
+}
+#explanation {
+    text-align: left;
+    border: 3px, rgb(47, 85, 255), solid;
+    margin:5px;
+    padding:10px;
+}
+#quicklinks {
+    margin:5px;
+    padding:5px;
+}
